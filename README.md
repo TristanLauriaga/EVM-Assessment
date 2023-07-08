@@ -51,9 +51,9 @@ After testing and troubleshooting my code, Using Loom I took a video explaining 
 ## Author
 
 Lancetristan B. Lauriaga
-[IG: @tristanaenaeeee]
-[2.1 BSIT]
-[The National Teacher College, Quiapo Manila.]
+[IG: @tristanaenaeeee] (https://www.instagram.com/tristanaenaeeee/)
+2.1 BSIT
+The National Teacher College, Quiapo Manila.
 
 ## License
 
