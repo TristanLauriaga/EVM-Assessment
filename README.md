@@ -12,4 +12,31 @@ This solidity program is my 1st ever smart contract this program is a simple tok
 ### Executing program
 
 * To run this program, I used Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
-* I have saved my program by clicking the "+" in the workspaces tab, Then I saved the file as a .sol file (Eth because we are using solidity to code this assessment.
+
+* I have saved my program by clicking the "+" in the workspaces tab, Then I saved the file as a .sol file (EVM:Assessment.sol) because I usedvsolidity to code this assessment.
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
+
+contract MyToken {
+
+    string public tokenName = "NOBEL";
+    string public tokenAbrv = "NBL";
+    uint public totalSupply = 0;
+    
+    mapping(address => uint) public balances;
+
+    function mint(address _add, uint _val) public  {
+        totalSupply += _val;
+        balances[_add] += _val;
+    }
+
+    function burn(address _add, uint _val) public  {
+        if (balances[_add] >= _val ){
+            totalSupply -= _val;
+            balances[_add] -= _val;
+        }  
+    }
+}
+```
