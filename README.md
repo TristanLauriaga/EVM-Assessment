@@ -13,7 +13,7 @@ This solidity program is my 1st ever smart contract this program is a simple tok
 
 * To run this program, I used Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-* I have saved my program by clicking the "+" in the workspaces tab, Then I saved the file as a .sol file (EVM:Assessment.sol) because I usedvsolidity to code this assessment.
+* I have saved my program by clicking the "+" in the workspaces tab, Then I saved the file as a .sol file (EVM:Assessment.sol) because I usedvsolidity to code this assessment. This is my Code below:
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -40,3 +40,21 @@ contract MyToken {
     }
 }
 ```
+I have compiled the code by clicking the "soldity compiler" at the left-hand side of the compiler. I chose the version 0.8.18 version of solidity, (Note: Make sure that the version that is writen in your code is the same as the version of the compiler that you are using).
+
+Once that the code is compiled. I went to the "Deploy and run transactions" at the left-hand side of the compiler, there I deployed my smart contract.
+
+After deploying my smart contract I test it and interacted with all of the functions, I called the variables "tokenName", "TokenAbrv" and "totalSupply" then I test also the mapping variable, then the minting function and the burn function.
+
+After testing and troubleshooting my code, Using Loom I took a video explaining and demonstrating my code, you can watch it here https://www.loom.com/share/3e60ef94a1784da8a79a67f396e3e6aa?sid=923945ce-21a2-46f2-a735-24346a1a1e93.
+
+## Author
+
+Lancetristan B. Lauriaga
+IG: @tristanaenaeeee
+2.1 BSIT
+The National Teacher College, Quiapo Manila.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
